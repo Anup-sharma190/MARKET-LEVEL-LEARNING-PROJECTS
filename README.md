@@ -1,28 +1,65 @@
-This project demonstrates how to automate the process of handling multiple browser windows or tabs using Selenium WebDriver in Python.
-It showcases switching between a parent window and a child window, retrieving text content, and validating window content — a common automation need when dealing with pop-ups, external links, or new tab navigation.
+📂 Project Files
+1. LOGIN PAGE TESTING PROJECT.py
 
-🎯 Key Features
-✅ Launches a browser using Selenium WebDriver
+Automates login functionality.
 
-✅ Opens a new browser window from a parent page
+Demonstrates input handling, locators (ID, NAME, XPATH), and form submission.
 
-✅ Switches control between multiple windows
+Covers both positive and negative test scenarios.
 
-✅ Extracts and prints text from a new window
+2. OBJECT ORIENTED CONCEPT.py
 
-✅ Returns to the parent window and validates its content
+Demonstrates how OOP principles (Classes, Objects, Inheritance) can be applied in Selenium.
 
-✅ Gracefully closes browser sessions
+Shows reusable methods for launching browsers, element interaction, and validations.
 
-🛠️ Skills & Technologies Used
-Python – Core programming language
+3. SWITCHING FROM PARENT TO CHILD WINDOW.py
 
-Selenium WebDriver – Browser automation
+Automates window/tab handling in Selenium.
 
-Chrome WebDriver – Chrome browser automation support
+Demonstrates switching between multiple windows using driver.window_handles.
 
-XPath / Link Text Locators – Element selection methods
+Validates data across parent and child windows.
 
-Window Handles – Managing multiple browser contexts
+4. TECHNIQUES TO HANDLE CHILD WINDOWS.py
 
-Assertions – Basic validation of page content
+Shows advanced techniques to handle multiple browser pop-ups and windows.
+
+Covers switch_to.window(), handling dynamic windows, and ensuring stability.
+
+5. __init__ CONSTRUCTOR IN PYTHON.py
+
+Demonstrates Python’s __init__ constructor in automation frameworks.
+
+Shows how test setup (browser initialization) can be modularized.
+
+6. profiles_settings.xml
+
+Example configuration file for browser/profile settings.
+
+Can be extended to define test environment variables or execution profiles.
+
+⚙️ Tech Stack
+
+Language: Python 3
+
+Automation Tool: Selenium WebDriver
+
+Browser: Chrome (configurable)
+
+📦 Installation & Setup
+
+Clone this repository:
+
+git clone https://github.com/Anup-sharma190/MARKET-LEVEL-LEARNING-PROJECTS.git
+cd MARKET-LEVEL-LEARNING-PROJECTS
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Run a test file:
+
+python LOGIN\ PAGE\ TESTING\ PROJECT.py
