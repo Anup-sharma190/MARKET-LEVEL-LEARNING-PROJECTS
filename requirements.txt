@@ -1,0 +1,21 @@
+# ===============================
+# Selenium Automation Projects
+# ===============================
+
+# Web Automation
+selenium>=4.0.0
+
+# Browser Driver Management (optional, makes setup easier)
+webdriver-manager>=3.8.0
+
+# Data Parsing (if XML is used in profiles_settings.xml)
+lxml>=4.6.3
+
+# Optional: JSON / API Handling (commonly needed in automation)
+requests>=2.25.1
+
+# ===============================
+# Notes:
+# - sqlite3 is built-in with Python (no need to install)
+# - OOP (__init__, classes, inheritance) uses only core Python
+# ===============================
